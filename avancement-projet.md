@@ -1,0 +1,14 @@
+- Mise en place stratégie Git (branches, tags, etc.)
+- Amélioration Dockerfile API et frontend (healthcheck, .dockerignore)
+- Docker compose (volumes etc.)
+- Routes API (health, endpoint, /products, etc.)
+- Logs JSON
+- Tests unitaires et intégration (couvrent 80%)
+- CI/CD GitHub Actions (.yml, artefacts, etc.)
+- Gestion secrets (.env.example propre, GitHub Secrets par env, rien en dur)
+- Multi-environnements (dev / prod)
+- Tags Docker + release (v1.0.0, v1.1.0 liés aux tags Git)
+- Scripts backup/restore PostgreSQL
+- Sécurité (npm audit, checklist ports et dépendances)
+- Incident contrôlé sur /api/products + rollback
+- Documentation finale (README, CHANGELOG, etc.)
